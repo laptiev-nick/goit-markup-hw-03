@@ -324,7 +324,7 @@ ul {
 }
 
 .portfolio-work {
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
 
   border-bottom: 1px solid var(--cornflower);
   border-left: 1px solid var(--cornflower);
