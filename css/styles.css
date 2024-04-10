@@ -66,15 +66,16 @@ ul {
 
 .main-nav {
   display: flex;
+  align-items: center;
 }
 
 .nav-menu {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 
 .nav-logo {
+  margin-right: 76px;
   padding: 24px 0;
 
   font-family: var(--second-family);
@@ -357,10 +358,12 @@ ul {
   background-color: var(--navy-blue);
 }
 
-.footer-logo-accent {
+.footer .nav-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
 
+.footer-logo-accent {
   color: var(--cloud);
 }
 
